@@ -1,0 +1,8 @@
+word = input()
+fabadaba = 'аоэеёыиуяюАОЭЁЫИУЯЮ'
+cont=0
+for i in word:
+    if i in fabadaba:
+        cont += 1
+
+print(cont)
